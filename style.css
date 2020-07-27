@@ -1,0 +1,55 @@
+
+.nav a{
+    color: gold;
+    padding-left: 15px;
+    font-size: 17px;
+}
+a:hover{
+    color: rgba(255, 217, 0, 0.719);
+}
+.nav-bar{
+    text-align: center;
+}
+body,button{
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+h1,h2,h4,button{
+    color: gold;
+}
+p{
+    color: gold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+button{
+    width: 200px;
+    height: 50px;
+    transition: all .05s ease;
+}
+button:hover{
+    width: 205px;
+    height: 51.25px;
+}
+.cookie-clicker{
+    color: antiquewhite;
+}
+.cookie-clicker:hover{
+    color: rgba(250, 235, 215, 0.767);
+}
+footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+.footer-content{
+    padding: 10px;
+    color: gold;
+}

@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module 4 Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="anchor"></div>
+    <div class="nav-bar">
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="ourInspiration.html">Our Inspiration</a>
+        </nav>
     </div>
-    <script src="/src/app.js"></script>
+    <div class="main">
+        <h1>Welcome to Sam's Donut Maker Game!</h1>
+        <h2>Donut Clicker</h2>
+        <h4>You have <span class="donutCount">0</span> donuts.</h4>
+        <button class="donutButton">Click here to make donuts</button>
+        <h2>Auto Clicker</h2>
+        <h4>You have <span class="autoClickerCount">0</span> auto clickers.</h4>
+        <button class="autoClickerButton">Purchase an auto clicker for <span class="autoClickerPrice">100</span> donuts</button>
+        <h2>Donut Multiplier</h2>
+        <h4>You have <span class="multiplierCount">0</span> donut multipliers.</h4>
+        <button class="multiplierButton">Purchase a multiplier for <span class="multiplierPrice">10</span> donuts</button>
+    </div>
+    <div>
+        <footer>
+            <span class="footer-content">Email: sambishara99@gmail.com</span>
+            <a class="footer-content" href="https://github.com/samuelbishara">GitHub</a>
+        </footer>
+    </div>
+    <script src="/src/js/app.js" type="module"></script>
+    <script src="/src/js/donutClicker.js" type="module"></script>
+    <script src="/src/js/autoClicker.js" type="module"></script>
+    <script src="/src/js/donutMultiplier.js" type="module"></script>
 </body>
 </html>
